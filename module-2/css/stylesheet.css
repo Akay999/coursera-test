@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: #3AF8F4;
+  text-align: center;
+}
+
+div {
+  border: 1px solid black;
+  margin: 10px;
+  padding: : 0;
+  background-color: lightgrey;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  right: 0px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+  color: #889495;
+  padding: 4px;
+}
+p {
+  margin-top: 25px;
+  padding: 15px;
+
+}
+
+.st {
+  background-color: pink;
+}
+
+.nd {
+  background-color: yellow;
+}
+
+.rd {
+  background-color: lightgreen;
+}
+
+
+
+/* for desktop version of the site */
+@media (min-width: 992px) {
+
+  div {
+    width: 30%;
+    float: left;
+  }
+}
+
+
+/* for tablet view of the site */
+@media (max-width: 991px) and (min-width: 768px) {
+  .a, .b {
+    width: 47%;
+    float: left;
+  }
+  .c {
+    clear: left;
+  }
+}
